@@ -1,0 +1,66 @@
+/* estilos del nav */
+
+.nav 
+{
+    width: 99%;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    backdrop-filter: blur(50px);
+    background: var(--c-whiteTrans); 
+    box-shadow: 0 2px 8px 0 var(--c-blackTrans);
+    transition: .6s all ease;
+}
+
+    .nav:hover 
+    {
+        background: var(--c-white);
+    }
+
+    .nav:hover a, .nav:hover span
+    {
+        color: var(--c-darkBlue);
+    }
+
+    .nav:hover span
+    {
+        border-color: var(--c-darkBlue);
+    }
+
+    .nav span
+    {
+        background-color: transparent;
+        color: var(--c-white);
+        border: 2px solid var(--c-white);
+        border-radius: 5px;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 24px;
+        transition: .6s all ease;
+    }
+
+    .nav a, button
+    {
+        text-decoration: none;
+        background: transparent;
+        border: 2px solid var(--c-white);
+        color: var(--c-white);
+        padding: 5px;
+        margin: 0 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 18px;
+        transition: .5s all ease;
+    }
+
+    .nav a:hover, button:hover
+    {
+        border: 2px solid var(--c-darkBlue);
+    }

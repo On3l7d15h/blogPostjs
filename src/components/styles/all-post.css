@@ -1,0 +1,13 @@
+/* estilos css det todos los post */
+
+.all-post
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    background: var(--c-blueCake);
+    height: 100vh;
+}

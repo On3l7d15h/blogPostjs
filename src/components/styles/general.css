@@ -1,0 +1,36 @@
+/* general */
+
+/* 
+    Código CSS con algunas propiedades
+    generales 
+*/
+
+:root
+{
+    /* colores */
+    --c-white: rgba(255, 255, 255, 1);
+        --c-whiteTrans: rgba(255, 255, 255, 0.35);
+    --c-black: rgba(0, 0, 0, 1);
+        --c-blackTrans: rgba(0, 0, 0, 0.3);
+    --c-gray: rgb(44, 44, 44);
+        --c-grayTrans: rgb(44, 44, 44, 0.7);
+        --c-whiteGray: rgba(238, 238, 238, 1);
+
+    --c-darkBlue: rgba(33, 36, 61, 1);
+        --c-darkBlueTrans: rgba(33, 36, 61, 0.9);
+    --c-redCake: rgba(255, 125, 125, 1);
+        --c-red: rgb(255, 106, 106);    
+    --c-yellowCack: rgba(255, 191, 85, 1);
+    --c-blueCake: rgba(91, 214, 238, 1);
+    --c-greenCake: rgb(98, 238, 91);
+        --c-green: rgb(73, 231, 64);
+
+    /* Gradients */
+    --c-gradient1: linear-gradient(to right, var(--c-yellowCack), var(--c-yellowCack));
+}
+
+/* etiquetas */
+html
+{
+    scroll-behavior: smooth;
+}
